@@ -1,7 +1,8 @@
 def cuenta_lineas
   f = File.open('peliculas.txt','r')
-  f.readlines.length
+  l = f.readlines.length
   f.close
+  l
 end
 
 # ejercicio 1
